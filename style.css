@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.head {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    /* background-color: pink; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    /* background-color: aqua; */
+    margin: 20px 100px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img1 {
+    background-image: url("/images/image1.jpg");
+}
+
+.img2 {
+    background-image: url("/images/image2.jpg");
+}
+
+.img3 {
+    background-image: url("/images/image3.jpg");
+}
+
+.img4 {
+    background-image: url("/images/image4.jpg");
+}
+
+.img5 {
+    background-image: url("/images/image5.jpg");
+}
+
+.img6 {
+    background-image: url("/images/image6.jpg");
+}
+
+.img7 {
+    background-image: url("/images/image7.jpg");
+}
+
+.img8 {
+    background-image: url("/images/image8.jpg");
+}
+
+.img9 {
+    background-image: url("/images/image9.jpg");
+}
+.img10 {
+    background-image: url("/images/image10.jpg");
+}
+.img11 {
+    background-image: url("/images/image11.jpg");
+}
+.img12 {
+    background-image: url("/images/image12.jpg");
+}
+.img13 {
+    background-image: url("/images/image13.jpg");
+}
+.img14 {
+    background-image: url("/images/image14.jpg");
+}
+.img15 {
+    background-image: url("/images/image15.jpg");
+}
+
+.img {
+    position: relative;
+    height: 50vh;
+    width: 32%;
+    color: red;
+    background-size: cover;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.img:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    box-shadow: 0 0 20px #333;
+    filter: drop-shadow(0 0 10px #333);
+    filter: grayscale(0%);
+}
+
+.img a {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.3s;
+}
+
+.img a:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
